@@ -24,19 +24,19 @@ function Price({ coinId }: ChartProps) {
     <Overview>
       <OverviewItem>
         <span>price :</span>
-        <span>{tickersdata?.quotes.USD.price}</span>
+        <span>{tickersdata?.quotes?.USD?.price}</span>
       </OverviewItem>
       <OverviewItem>
         <span>Change rate (last 1 hours) :</span>
-        <span>{tickersdata?.quotes.USD.percent_change_1h}</span>
+        <span>{tickersdata?.quotes?.USD?.percent_change_1h}</span>
       </OverviewItem>
       <OverviewItem>
         <span>Change rate (last 6 hours) :</span>
-        <span>{tickersdata?.quotes.USD.percent_change_6h}</span>
+        <span>{tickersdata?.quotes?.USD?.percent_change_6h}</span>
       </OverviewItem>
       <OverviewItem>
         <span>Change rate (last 24 hours) :</span>
-        <span>{tickersdata?.quotes.USD.percent_change_24h}</span>
+        <span>{tickersdata?.quotes?.USD?.percent_change_24h}</span>
       </OverviewItem>
     </Overview>
   );
